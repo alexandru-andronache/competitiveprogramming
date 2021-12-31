@@ -34,3 +34,4 @@
 build/
 main
 test
+.DS_Store
