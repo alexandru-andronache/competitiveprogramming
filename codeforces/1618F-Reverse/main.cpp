@@ -35,7 +35,7 @@ std::string solve(unsigned long long x, unsigned long long y) {
             tmp.push_back(i + '0');
             std::reverse(tmp.begin(), tmp.end());
             tmp = removeLeadingZero(tmp);
-            if (j == 1) {
+            for (int k = 0; k < j; ++k) {
                 std::reverse(tmp.begin(), tmp.end());
             }
             tmp = removeLeadingZero(tmp);
